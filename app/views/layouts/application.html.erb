@@ -8,6 +8,10 @@
 </head>
 <body>
     <h1 class="header">Travel Diary</h1>
+    <div style="text-align: center;">
+        <span><%= link_to 'Cities', cities_path %></span>
+        <span><%= link_to 'Reviews', reviews_path %></span>
+    </div>
     <div id="cotent">
         <%= yield %>
     </div>

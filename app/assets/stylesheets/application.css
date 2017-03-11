@@ -37,6 +37,11 @@ h1.header{
   font-size: 5em;
 }
 
+#header-content{
+  width: 80%;
+  background-color: #FFF;
+}
+
 #content{
   width: 80%;
   background-color: #FFF;
